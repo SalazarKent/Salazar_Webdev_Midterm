@@ -1,7 +1,7 @@
 body{
-    background-image: url("img/calendar.jpg");
     background-color: lightgrey;
-    background-size:cover;
+  background-image: url(https://salazarkent.github.io/Salazar_Webdev_Midterm/calendar.jpg);
+  background-repeat:cover;
   }
   .container {
     max-width: 800px; 
