@@ -1,6 +1,7 @@
 body{
-    background-image: url('img/calendar.jpg');
+    background-image: url("img/image.jpg");
     background-color: lightgrey;
+    background-size:cover;
   }
   .container {
     max-width: 800px; 
@@ -16,7 +17,7 @@ body{
     text-align: center;
     color: #ADD8E6; 
     padding: 25px;
-    background-color: gray;
+    background-color:#CCFF33;
     border: 1px solid #ADD8E6; 
     font-size: 2.5em; 
     letter-spacing: 5px;  
