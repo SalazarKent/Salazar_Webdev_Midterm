@@ -1,6 +1,6 @@
 body{
-    background-color: black;
-background-image: url("");
+    background-color: lightgrey;
+background-image: url("calendar.jpg");
 
   }
   .container {
@@ -8,26 +8,29 @@ background-image: url("");
     margin: auto; 
     font-family: sans-serif;
   }
-  .month {
-    text-align: center;
-    background-color: gray;
-    font-size: 2.5em; 
-    letter-spacing: 5px; 
-    color: #ADD8E6; 
-    padding: 25px; 
-    border: 1px solid #ADD8E6; 
-  }
-  table, th, td {
-    width: 100%; 
-    table-layout:fixed; 
-    text-align: center; 
-    font-size: 16px; 
-    border-collapse: collapse; 
-    border: 1px solid #89CFF0;
-  }
+
   tr, th, td {
     padding: 20px;
   }
+
+  .month {
+    text-align: center;
+    color: #ADD8E6; 
+    padding: 25px;
+    background-color: gray;
+    border: 1px solid #ADD8E6; 
+    font-size: 2.5em; 
+    letter-spacing: 5px;  
+  }
+  table, th, td {
+    width: 100%;  
+    text-align: center; 
+    font-size: 18px; 
+    border: 1px solid #89CFF0;
+    table-layout:fixed;
+    border-collapse: collapse; 
+  }
+
   th {
     background: gray;
     color: #00FFFF; 
